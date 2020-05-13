@@ -124,7 +124,7 @@
           cursor: pointer;
           background-image: linear-gradient(
             to top,
-            rgba(0, 217, 255, 0.06) 0%,
+            rgba(0, 217, 255, 0.15) 0%,
             rgba(0,0,0,0) 70%);
 
           &.active{
@@ -181,6 +181,7 @@
         text-align: center;
         float: right;
         margin-left: 10px;
+        background-color: #e7e7e734;
 
         h5 {
           font-size: .95rem;
