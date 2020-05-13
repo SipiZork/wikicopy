@@ -148,11 +148,13 @@ class App extends React.Component {
                 <hr />
                 <div className="content-img">
                   <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Commiemutants.png/270px-Commiemutants.png" alt="gameplay" />
-                  <div className="article-img-description">Destroy the Mother Creature while avoiding mutants and their bombs.</div>
+                  <div className="content-img-description">Destroy the Mother Creature while avoiding mutants and their bombs.</div>
                 </div>
                 <p>
-                  Aliens from the communist planet of Rooskee are invading peaceful, democratic planets and turning their inhabitants into "Communist Mutants."
-                  The communist mutant armies are controlled by the Mother Creature, a strange alien who has gone mad due to irradiated vodka.[4]
+                  The player starts off with three reserve cannons. The object is to destroy the mutants aliens and, most importantly, the Mother Creature. 
+                  The mutants hatch from moving eggs at the top of the screen. Because the Mother Creature replenishes eggs when they hatch or are destroyed, 
+                  it must be defeated before the player can advance to the next wave. If a mutant or a bomb thrown by a mutant comes into contact with the cannon, 
+                  the cannon will be destroyed and a reserve must be called up. A new cannon is awarded on every other wave.
                 </p>
                 <h3 className="sub-title">Game options</h3>
                 <p>
