@@ -1,0 +1,37 @@
+.page-menu {
+  min-width: 11rem;
+  max-width: 11rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  .logo {
+    margin-bottom: 20px;
+  }
+
+  .menu-items {
+    text-align: left;
+
+    a {
+      display: block;
+      margin-bottom: 4px;
+    }
+
+    span {
+      display: block;
+      margin: 20px 0 0 0;
+      border-width: 0 0 1px 0;
+      padding-bottom: 2px;
+      border-style: solid;
+      border-image: 
+          linear-gradient(
+            to right,
+            rgba(0,0,0,0) 0%,
+            rgba(0,0,0,.3) 30%,
+            rgba(0,0,0,.3) 60%,
+            rgba(0,0,0,0) 100%)100% 1;
+      margin-bottom: 10px;
+    }
+  }
+}

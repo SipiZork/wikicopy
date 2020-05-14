@@ -1,0 +1,25 @@
+.page-content {
+  padding: 20px 15px;
+  border-left: 1px solid #0645ad;
+  border-bottom: 1px solid #0645ad;
+
+  .title {
+    font-style: italic;
+    font-size: 2.5rem;
+
+    &:after {
+      content: '';
+      display: block;
+      clear: both;
+      width: 100%;
+      margin: 5px 0;
+      height: 1px;
+      background-color: #7c7c7c;
+    }
+  }
+
+  .wiki {
+    display: block;
+    padding: 10px 10px 20px;
+  }
+}
